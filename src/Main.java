@@ -21,6 +21,13 @@ public class Main {
         } else {
             System.out.println("Acceso restringido.");
         }
+        if (edad < 18) {
+            System.out.println("Estudiante menor de edad.");
+        } else if (edad < 25) {
+            System.out.println("Estudiante joven.");
+        } else {
+            System.out.println("Estudiante adulto.");
+        }
 
         estudiante.mostrarInformacion();
     }
