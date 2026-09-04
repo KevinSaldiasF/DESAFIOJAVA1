@@ -28,6 +28,9 @@ public class Main {
         } else {
             System.out.println("Estudiante adulto.");
         }
+        for (int contador = 0; contador < 3; contador++) {
+            System.out.println("Procesando registro " + contador);
+        }
 
         estudiante.mostrarInformacion();
     }
