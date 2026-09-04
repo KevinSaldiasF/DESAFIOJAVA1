@@ -1,13 +1,14 @@
 public class ESTUDIANTE {
-    public static void main(String[] args) {
-        private String nombre;
-        private String carrera;
-        private int edad;
-    }
 
-        String nombre;
-        String carrera;
-        int edad;
+    private String nombre;
+    private String carrera;
+    private int edad;
+
+    public ESTUDIANTE(String nombre, String carrera, int edad) {
+        this.nombre = nombre;
+        this.carrera = carrera;
+        this.edad = edad;
+    }
 
     public String getNombre() {
         return nombre;
@@ -33,12 +34,6 @@ public class ESTUDIANTE {
         this.carrera = carrera;
     }
 
-    public ESTUDIANTE(String nombre, String carrera, int edad) {
-        this.nombre = nombre;
-        this.carrera = carrera;
-        this.edad = edad;
-
-}
     public void mostrarInformacion() {
         System.out.println("Nombre: " + nombre);
         System.out.println("Carrera: " + carrera);
